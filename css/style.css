@@ -221,4 +221,127 @@ footer a:hover {
     section h2 {
         font-size: 2rem;
     }
+}
+
+/* Publications Page Styles */
+.publications-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.featured-publications {
+    margin-bottom: 4rem;
+}
+
+.publication-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 1.5rem;
+}
+
+.publication-card h3 {
+    color: #2D2D2D;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.publication-card .authors {
+    color: #666;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+}
+
+.publication-card .journal {
+    color: #CFB87C;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.publication-card .abstract {
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.publication-link {
+    display: inline-block;
+    color: #2D2D2D;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.publication-link:hover {
+    color: #CFB87C;
+}
+
+.publications-list {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.publication-item {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.publication-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #2D2D2D;
+}
+
+.publication-item .authors {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+}
+
+.publication-item .journal {
+    color: #CFB87C;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.publication-item a {
+    color: #2D2D2D;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+.publication-item a:hover {
+    color: #CFB87C;
+}
+
+.view-all-publications {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 2rem;
+    background: #f8f8f8;
+    border-radius: 8px;
+}
+
+.view-all-publications .button {
+    display: inline-block;
+    background: #2D2D2D;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+}
+
+.view-all-publications .button:hover {
+    background: #CFB87C;
 } 
